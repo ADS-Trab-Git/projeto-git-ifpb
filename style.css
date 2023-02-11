@@ -12,7 +12,7 @@ body{
     height: 2000px;
 }
 #cabecalho{
-    background-color: #333;
+    background-color: #1d1d1d;
     color: white;
     position: fixed;
     left: 0;
@@ -60,7 +60,7 @@ body{
     width: 0px;
     height: 4px;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, #4c57fc,#070395);
+    background-image: linear-gradient(45deg, #0a5517,#19882c);
     position: absolute;
     top: 25px;
     left: 0;
