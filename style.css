@@ -5,12 +5,68 @@
     font-family: 'Titillium Web', sans-serif;
     box-sizing: border-box;
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
-    height: 5000px;
+    height: 2000px;
 }
 #cabecalho{
     background-color: #333;
+    color: white;
     position: fixed;
-    overflow: hidden;
+    left: 0;
+    top: 0;
     width: 100%;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+}
+.container{
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.titulo{
+    width: 25%;
+    font-size: 140%;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    user-select: none;
+}
+.icon{
+    width: 30px;
+}
+.alinhar{
+    max-width: 1080px;
+    margin-top: 1.5rem;
+    padding-top: 3rem;
+}
+.alinhar p{
+    margin-top: 15px;
+}
+.menu a{
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    position: relative;
+}
+.menu a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #4c57fc,#070395);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.5s;
+}
+.menu a:hover::after{
+    width: 35px;
+    border-radius: 5px;
 }
