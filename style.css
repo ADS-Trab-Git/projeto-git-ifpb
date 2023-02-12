@@ -9,10 +9,11 @@ html{
     scroll-behavior: smooth;
 }
 body{
+    background-color: #fffedb;
     height: 2000px;
 }
 #cabecalho{
-    background-color: #1d1d1d;
+    background-color: #383939;
     color: white;
     position: fixed;
     left: 0;
@@ -38,15 +39,22 @@ body{
     user-select: none;
 }
 .icon{
-    width: 30px;
+    position: absolute;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    left: 50px;
+    top: -6px;
+    width: 7%;
 }
 .alinhar{
     max-width: 1080px;
     margin-top: 1.5rem;
     padding-top: 3rem;
+    border-bottom: 1px solid #33333362;
 }
 .alinhar p{
     margin-top: 15px;
+    margin-bottom: 30px;
 }
 .menu a{
     font-size: 1.1em;
@@ -60,7 +68,7 @@ body{
     width: 0px;
     height: 4px;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, #0a5517,#19882c);
+    background-image: linear-gradient(45deg, #38c958,#aee637);
     position: absolute;
     top: 25px;
     left: 0;
