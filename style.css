@@ -75,6 +75,6 @@ body{
     transition: width 0.5s;
 }
 .menu a:hover::after{
-    width: 35px;
+    width: 75%;
     border-radius: 5px;
 }
