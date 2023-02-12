@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
-*{
+
+* {
     padding: 0;
     margin: 0 auto;
     font-family: 'Titillium Web', sans-serif;
     box-sizing: border-box;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-body{
+
+body {
     background-color: #fffedb;
     height: 2000px;
 }
-#cabecalho{
+
+#cabecalho {
     background-color: #383939;
     color: white;
     position: fixed;
@@ -23,14 +27,16 @@ body{
     display: flex;
     align-items: center;
 }
-.container{
+
+.container {
     max-width: 1080px;
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: center;
 }
-.titulo{
+
+.titulo {
     width: 25%;
     font-size: 140%;
     font-weight: bold;
@@ -38,7 +44,8 @@ body{
     text-decoration: none;
     user-select: none;
 }
-.icon{
+
+.icon {
     position: absolute;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -46,46 +53,53 @@ body{
     top: -6px;
     width: 7%;
 }
-.alinhar{
+
+.alinhar {
     max-width: 1080px;
     margin-top: 1.5rem;
     padding-top: 3rem;
     border-bottom: 1px solid #33333362;
 }
-.alinhar p{
+
+.alinhar p {
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.menu a{
+
+.menu a {
     font-size: 1.1em;
     color: white;
     text-decoration: none;
     padding-right: 30px;
     position: relative;
 }
-.menu a::after{
+
+.menu a::after {
     content: " ";
     width: 0px;
     height: 4px;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, #38c958,#aee637);
+    background-image: linear-gradient(45deg, #38c958, #aee637);
     position: absolute;
     top: 25px;
     left: 0;
     transition: width 0.5s;
 }
-.menu a:hover::after{
+
+.menu a:hover::after {
     width: 75%;
     border-radius: 5px;
 }
-#link{
+
+#link {
     background-color: #fffedb;
     border: solid 1px #2d2e2e;
     color: #2d2e2e;
     border-radius: 8px;
     width: 100px;
 }
-#link:hover{
+
+#link:hover {
     background-color: #2d2e2e;
     color: aliceblue;
 }
