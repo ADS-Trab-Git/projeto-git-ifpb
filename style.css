@@ -28,35 +28,40 @@ body {
     align-items: center;
     height: 3.5rem;
 }
+
 #cabecalho a img {
     width: 5.5rem;
 }
 
-.menu a{
+.menu a {
     font-size: 1.1em;
     color: white;
     text-decoration: none;
     padding-right: 30px;
     position: relative;
 }
-.menu a::after{
+
+.menu a::after {
     content: " ";
     width: 0px;
     height: 4px;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, #38c958,#aee637);
+    background-image: linear-gradient(45deg, #38c958, #aee637);
     position: absolute;
     top: 25px;
     left: 0;
     transition: width 0.5s;
 }
-.menu a:hover::after{
+
+.menu a:hover::after {
     width: 30px;
     border-radius: 5px;
 }
-.git{
+
+.git {
     width: 10px;
 }
+
 .container {
     margin: 6rem 3rem;
     display: flex;
@@ -96,44 +101,46 @@ body {
     transform: none;
 }
 
-#contatos {
+#contatos2 {
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
     gap: 1rem;
 }
 
-#contatos .item {
+#contatos2 .item {
     padding: 1rem;
     border: 2px solid black;
     box-shadow: 5px 5px black;
     height: auto;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#contatos .item img {
+#contatos2 .item img {
     margin-top: 1rem;
     width: 10rem;
 }
 
-#contatos .item span {
+#contatos2 .item span {
     font-weight: bold;
 }
 
-#contatos .item span:first-child {
+#contatos2 .item span:first-child {
     font-size: 2rem;
 }
 
-#contatos .item span:last-child {
+#contatos2 .item span:last-child {
     margin-top: 1rem;
 }
-span a{
+
+span a {
     text-decoration: none;
     color: black;
 }
+
 footer {
     background: #2d2e2e;
     color: white;
