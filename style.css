@@ -26,8 +26,11 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    height: 3.5rem;
 }
-
+/* #home{
+    padding-top: 3.5rem;
+} */
 #cabecalho a img {
     width: 5.5rem;
 }
@@ -51,7 +54,7 @@ body {
     transition: width 0.5s;
 }
 .menu a:hover::after{
-    width: 75%;
+    width: 30px;
     border-radius: 5px;
 }
 
@@ -62,9 +65,9 @@ body {
     align-items: center;
 }
 
-#subcontainer {
+.subcontainer {
     max-width: 60rem;
-    margin-top: 2.5rem;
+    padding-top: 3.5rem;
     padding-bottom: 2.5rem;
     border-bottom: 1px solid #bfbfbf;
 }
