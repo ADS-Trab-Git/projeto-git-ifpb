@@ -1,1 +1,1 @@
-# projeto-git-ifpb
+# projeto-disciplina-git-ifpb

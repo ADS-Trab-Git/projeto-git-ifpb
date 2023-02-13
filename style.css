@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #fffedb;
+}
+
+
+#cabecalho {
+    background-color: #383939;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3.5rem;
+}
+#cabecalho a img {
+    width: 5.5rem;
+}
+
+.menu a{
+    font-size: 1.1em;
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+    position: relative;
+}
+.menu a::after{
+    content: " ";
+    width: 0px;
+    height: 4px;
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, #38c958,#aee637);
+    position: absolute;
+    top: 25px;
+    left: 0;
+    transition: width 0.5s;
+}
+.menu a:hover::after{
+    width: 30px;
+    border-radius: 5px;
+}
+.git{
+    width: 10px;
+}
+.container {
+    margin: 6rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.subcontainer {
+    max-width: 60rem;
+    padding-top: 4rem;
+    padding-bottom: 2.5rem;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+#subcontainer h2 {
+    margin-bottom: 1rem;
+}
+
+#link {
+    margin-left: 0.2rem;
+    font-size: 1.3rem;
+    background-color: #fffedb;
+    border: solid 1px #2d2e2e;
+    color: #2d2e2e;
+    padding: 0.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#link:hover {
+    box-shadow: 2px 2px black;
+    transform: translate(-2px, -2px);
+}
+
+#link:active {
+    box-shadow: none;
+    transform: none;
+}
+
+#contatos {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+#contatos .item {
+    padding: 1rem;
+    border: 2px solid black;
+    box-shadow: 5px 5px black;
+    height: auto;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#contatos .item img {
+    margin-top: 1rem;
+    width: 10rem;
+}
+
+#contatos .item span {
+    font-weight: bold;
+}
+
+#contatos .item span:first-child {
+    font-size: 2rem;
+}
+
+#contatos .item span:last-child {
+    margin-top: 1rem;
+}
+span a{
+    text-decoration: none;
+    color: black;
+}
+footer {
+    background: #2d2e2e;
+    color: white;
+    padding: 1rem;
+    font-weight: bold;
+
+    display: flex;
+    justify-content: space-between;
+}
