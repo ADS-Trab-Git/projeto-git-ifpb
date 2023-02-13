@@ -28,9 +28,6 @@ body {
     align-items: center;
     height: 3.5rem;
 }
-/* #home{
-    padding-top: 3.5rem;
-} */
 #cabecalho a img {
     width: 5.5rem;
 }
@@ -57,7 +54,9 @@ body {
     width: 30px;
     border-radius: 5px;
 }
-
+.git{
+    width: 10px;
+}
 .container {
     margin: 6rem 3rem;
     display: flex;
@@ -131,7 +130,10 @@ body {
 #contatos .item span:last-child {
     margin-top: 1rem;
 }
-
+span a{
+    text-decoration: none;
+    color: black;
+}
 footer {
     background: #2d2e2e;
     color: white;
